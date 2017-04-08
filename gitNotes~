@@ -9,3 +9,5 @@ git add - prida soubory ci slozky do sledovani, ty pak muzu komitovat (muzu pouz
  git add -A - prida vse v aktualnim adresari(prej i smazany) ke sledovani
 
 git commit: komituju, -m 'zprava' nebo "zprava" parametr message
+
+git log - zobrazi komity a info o nich
