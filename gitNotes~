@@ -10,4 +10,8 @@ git add - prida soubory ci slozky do sledovani, ty pak muzu komitovat (muzu pouz
 
 git commit: komituju, -m 'zprava' nebo "zprava" parametr message
 
+example:
+
+git commit -a -m 'zprava'
+
 git log - zobrazi komity a info o nich
