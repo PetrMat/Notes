@@ -17,6 +17,11 @@ git commit -a -m 'zprava'
 git log - zobrazi komity a info o nich
 
 git remote add jmenoRepo URL (jmeno repozitare je mysleno jmeno na github) (zjistit vic o fetch)
+jo muzu si to pojmenovat jak chci, nemusi to byt stejne jako na githubu, ale prijde mi to logicky
 
 git push -u jmenoRepo jmenoVetve - hodi vse komitovane do repa na githubu do vetve, parametr -u je proto, aby si git zapamatoval parametry a pak muzu dat uz jen git push bez parametru
 example: git push -u jmenoRepa master - hodi komit do hlavni vetve repa na githubu
+
+git pull jmenoRepo jmenoVetve - jmeno co jsem si nastavil a treba master(hlavni vetev), v podstate checkout posledni verze(jsou tam ale i predchozi)
+
+zjisteni zmen git diff HEAD - po checkout - pull kontroluje jak se lisi co mam u sebe oproti vzdalenemu repu, je case sensitive musi byt HEAD
