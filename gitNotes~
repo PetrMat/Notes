@@ -15,3 +15,8 @@ example:
 git commit -a -m 'zprava'
 
 git log - zobrazi komity a info o nich
+
+git remote add jmenoRepo URL (jmeno repozitare je mysleno jmeno na github) (zjistit vic o fetch)
+
+git push -u jmenoRepo jmenoVetve - hodi vse komitovane do repa na githubu do vetve, parametr -u je proto, aby si git zapamatoval parametry a pak muzu dat uz jen git push bez parametru
+example: git push -u jmenoRepa master - hodi komit do hlavni vetve repa na githubu
