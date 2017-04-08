@@ -1,0 +1,9 @@
+GIT:
+
+git init - vytvori repo
+
+git status - vypise jestli je nejaky novy soubor, nebo pridany soubor, a co je pripraveno ke komitu
+
+git add - prida soubory ci slozky do sledovani, ty pak muzu komitovat
+
+ git add -A - prida vse v aktualnim adresari(prej i smazany) ke sledovani

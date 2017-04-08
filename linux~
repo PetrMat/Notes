@@ -1,0 +1,16 @@
+Linux:
+
+terminal:
+----------
+
+autocomplete names or folders - type part of name and then press Tab key
+
+
+Ubuntu:
+---------
+
+- how to add app to launcher? - run app and then click on its icon in launcher and choose add to launcher
+
+Launcher troubles - icon refers to old version of app - delete it in ./local/share/applications and run it and lock it to launcher again
+
+How to find hidden directories and files in Nautilus? press Ctrl+H - hide them press it again
