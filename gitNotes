@@ -36,3 +36,5 @@ git branch jmenoVetve - zalozeni vetve
             bez jmena - vypise vetve a zvyrazni aktualni
 
 git checkout jmenoVetve - prepne na udavanou vetev
+
+git rm jmenoSouboru - smaze soubor a pripravi i smazani ke komitu(aby se to smazlo i v repo)

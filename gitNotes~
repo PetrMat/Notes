@@ -33,3 +33,6 @@ git reset jmenoSouboru - odstrani ze Stage (priprava na commit)
 git checkout - zjisti vic
 
 git branch jmenoVetve - zalozeni vetve
+            bez jmena - vypise vetve a zvyrazni aktualni
+
+git checkout jmenoVetve - prepne na udavanou vetev
