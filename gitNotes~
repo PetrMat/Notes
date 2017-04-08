@@ -25,3 +25,11 @@ example: git push -u jmenoRepa master - hodi komit do hlavni vetve repa na githu
 git pull jmenoRepo jmenoVetve - jmeno co jsem si nastavil a treba master(hlavni vetev), v podstate checkout posledni verze(jsou tam ale i predchozi)
 
 zjisteni zmen git diff HEAD - po checkout - pull kontroluje jak se lisi co mam u sebe oproti vzdalenemu repu, je case sensitive musi byt HEAD
+
+git diff --staged - zjisti co se zmenilo mezi pripravenyma na zmenu a posledni verzi repa, kterou mam u sebe
+
+git reset jmenoSouboru - odstrani ze Stage (priprava na commit) 
+
+git checkout - zjisti vic
+
+git branch jmenoVetve - zalozeni vetve
